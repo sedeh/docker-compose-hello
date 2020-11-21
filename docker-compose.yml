@@ -1,0 +1,26 @@
+version : '3'
+services:
+
+  main:
+    image: docker.io/sedeh/main:1.0
+    environment:
+      - CONTAINER_NAME=main
+    ports:
+      - '5000:5000'
+    container_name: main
+
+  app1:
+    image: docker.io/sedeh/app1:1.0
+    environment:
+      - CONTAINER_NAME=app1
+    ports:
+      - '6000:6000'
+    container_name: app1
+
+  app2:
+    image: docker.io/sedeh/app2:1.0
+    environment:
+      - CONTAINER_NAME=app2
+    ports:
+      - '7000:7000'
+    container_name: app2
