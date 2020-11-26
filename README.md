@@ -2,6 +2,8 @@
 
 This repo demonstrates the basic set up for docker-compose. 
 
+Follow along in the detailed self-guided walk-through here: https://www.linkedin.com/pulse/containerized-apps-part-2-up-running-docker-compose-samuel-edeh/
+
 Run the application: `docker-compose up --detach --build`
 
 View the log of one of the running container, e.g. main: `docker logs --follow main`
