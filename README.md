@@ -2,7 +2,7 @@
 
 This repo demonstrates the basic set up for docker-compose. 
 
-Follow along in the detailed self-guided walk-through here: https://www.linkedin.com/pulse/containerized-apps-part-2-up-running-docker-compose-samuel-edeh/
+Follow along in the detailed step-by-step guide here: https://www.linkedin.com/pulse/containerized-apps-part-2-up-running-docker-compose-samuel-edeh/
 
 Run the application: `docker-compose up --detach --build`
 
